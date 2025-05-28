@@ -10,7 +10,7 @@ const Header = () => {
           </h1>
         </div>
         <div className="flex-[4] justify-center flex items-center">
-          <div className="relative w-30 sm:w-80">
+          <div className="relative w-25 sm:w-80">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
 
             <Bell className="absolute right-3 top-1/2 transform -translate-y-1/2 text-blue-600 hover:text-blue-800 w-5 h-5 cursor-pointer" />
