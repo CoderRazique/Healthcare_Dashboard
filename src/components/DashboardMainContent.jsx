@@ -24,8 +24,8 @@ const DashboardMainContent = () => {
               <AnatomySection />
             </div>
             <div className="col-span-1 xl:col-span-1 sm:col-span-1 lg:col-span-4 space-y-6">
-              <span className="cursor-pointer m-5 flex text-sm text-gray-500">
-                This Week <ChevronDown className="w-4 h-4 m-1" />
+              <span className="cursor-pointer m-5 flex text-[11px] text-gray-500">
+                This Week <ChevronDown className="w-3 h-3 m-1" />
               </span>
 
               <HealthStatusCards />

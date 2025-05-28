@@ -14,7 +14,7 @@ const UpcomingSchedule = () => {
           </h3>
           <div className="grid grid-cols-2 gap-4">
             {upcomingAppointments.thursday.map((appointment) => (
-              <div className="p-4 lg:col-span-1 rounded-xl bg-blue-200 text-black">
+              <div className="p-4 lg:col-span-2 xl:col-span-1 rounded-xl bg-blue-200 text-black">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="text-[12px] sm:text-[16px] font-medium">
                     {appointment.title}
@@ -35,7 +35,7 @@ const UpcomingSchedule = () => {
           </h3>
           <div className="grid grid-cols-2 gap-4">
             {upcomingAppointments.saturday.map((appointment) => (
-              <div className="p-4 lg:col-span-1 rounded-xl bg-blue-200 text-black">
+              <div className="p-4 lg:col-span-2 xl:col-span-1 rounded-xl bg-blue-200 text-black">
                 <div className="flex items-center w-full justify-between mb-2">
                   <h3 className="text-[14px] sm:text-[16px] font-medium">
                     {appointment.title}

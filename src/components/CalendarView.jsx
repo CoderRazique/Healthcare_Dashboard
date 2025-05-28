@@ -62,7 +62,7 @@ const CalendarView = () => {
         {mainAppointments.map((appointment) => (
           <div
             key={appointment.id}
-            className={`p-4 rounded-xl  ${
+            className={`p-4 lg:col-span-2 xl:col-span-1 rounded-xl  ${
               appointment.color === "blue"
                 ? "bg-blue-600 text-white"
                 : "bg-blue-200 text-black"
