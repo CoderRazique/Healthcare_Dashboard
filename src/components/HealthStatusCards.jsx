@@ -5,10 +5,10 @@ import { healthStatusData } from "../data/healthData";
 const HealthStatusCards = () => {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col md:flex-row lg:flex-row xl:flex-col items-center">
+      <div className="flex flex-col md:flex-row lg:flex-col xl:flex-col items-center">
         {healthStatusData.map((item) => {
           return (
-            <div className="p-4 m-2 w-full sm:w-40 bg-blue-50 rounded-xl ">
+            <div className="p-4 m-2 w-full md:w-full sm:w-40 bg-blue-50 rounded-xl ">
               <div className="flex flex-col  justify-start mb-1">
                 <div className="flex items-center">
                   <img src={item.src} alt={item.alt} className="h-15 w-15" />

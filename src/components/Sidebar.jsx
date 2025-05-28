@@ -30,7 +30,7 @@ const Sidebar = () => {
       {!open && (
         <button
           onClick={() => setOpen(true)}
-          className="md:hidden flex fixed top-18 p-1 left-4 z-50 animate-pulse "
+          className="sm:hidden flex fixed top-18 p-1 left-4 z-50 animate-pulse "
         >
           <Menu className=" w-6 h-6" />
         </button>
@@ -39,10 +39,10 @@ const Sidebar = () => {
       {/* sidebar */}
       <aside
         className={`
-          w-60 min-h-screen bg-blue-50 p-6 flex flex-col justify-between
+          w-60 min-h-screen bg-blue-50 p-6 flex flex-col  sm:justify-between
           fixed z-40 transition-transform duration-300 ease-in-out
     ${open ? "top-18" : "-top-full"} left-0 
-    md:top-0 md:left-0 md:min-h-screen md:translate-x-0 md:static
+    sm:top-0 sm:left-0 sm:min-h-screen sm:translate-x-0 sm:static
         `}
       >
         {/* TOP CONTENT*/}

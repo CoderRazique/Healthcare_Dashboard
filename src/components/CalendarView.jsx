@@ -58,11 +58,11 @@ const CalendarView = () => {
         })}
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 flex flex-col gap-4">
         {mainAppointments.map((appointment) => (
           <div
             key={appointment.id}
-            className={`p-4 rounded-xl ${
+            className={`p-4 rounded-xl  ${
               appointment.color === "blue"
                 ? "bg-blue-600 text-white"
                 : "bg-blue-200 text-black"
